@@ -1,0 +1,173 @@
+html {
+	scroll-behavior: smooth;
+}
+
+#navbar {
+	overflow: hidden;
+	background-color: #f37a7b;
+	padding: 0.4vw;
+	margin-left: 0%;
+	transition: 0.4s;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+}
+
+#navbar #rahul-subagio {
+	text-decoration: none;
+	font-size: 3vw;
+	font-weight: 50px;
+	color: white;
+	transition: 0.4s;
+}
+
+.kiri {
+	font-size: 1.5vw;
+	margin-bottom: 0.1vw;
+	margin-top: 0.1vw;
+}
+
+li a h5 {
+	color: white;
+	margin-left: 10px;
+	margin: 0px 0px 0px 15px;
+}
+
+li a h5:hover {
+	color: #f2cb57;
+}
+
+#content {
+	font-family: "Righteous", cursive;
+}
+
+#home-area {
+	height: 100%;
+	background: white;
+	background-image: url("foto/1-GEAR.png"), url("foto/2-GEAR.png");
+	background-repeat: no-repeat;
+	background-position: left, right;
+	background-size: 20vw 40vw;
+}
+
+#home-area .logo-rs {
+	margin: 7vw auto auto;
+	width: 25vw;
+	height: auto;
+}
+
+#home-text {
+	color: #f2cb57;
+	font-size: 5vw;
+	font-weight: 700;
+	letter-spacing: 3px;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 0;
+	line-height: 1;
+}
+
+#home-text1 {
+	color: #f37a7b;
+	font-size: 3vw;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top: 0.2vw;
+	margin-bottom: 5vw;
+}
+
+#about-area {
+	height: 100%;
+	background: white;
+	background-image: url("foto/4-BG.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+#about-text {
+	color: #f37a7b;
+	font-size: 7vw;
+	font-weight: 900;
+	letter-spacing: 5px;
+	text-align: center;
+	margin-bottom: 3vw;
+}
+
+#about-foto1 {
+	width: 100%;
+	height: auto;
+}
+
+#about-foto2 {
+	max-width: 30vw;
+	height: auto;
+}
+
+#about-text-personal {
+	font-family: "Patrick Hand", cursive;
+	color: #4d4d4d;
+	font-size: 1.5vw;
+	line-height: 120%;
+	text-align: justify;
+	margin-top: 0.2vw;
+	padding: 2vw;
+	padding-left: 5vw;
+	padding-right: 1vw;
+}
+
+#about-text-education {
+	font-family: "Patrick Hand", cursive;
+	color: #4d4d4d;
+	font-size: 1.5vw;
+	line-height: 120%;
+	text-align: justify;
+	margin-top: 0.2vw;
+	padding: 2vw;
+	padding-right: 5vw;
+	padding-left: 1vw;
+}
+
+#gallery-area {
+	height: 100%;
+	background: white;
+	background-image: url("foto/4-BG.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+#gallery-area #bg {
+	background-image: url("foto/5-BG.png");
+}
+
+#gallery-foto {
+	max-width: 105%;
+	height: auto;
+	margin-bottom: 10%;
+}
+
+#contact-area {
+	height: 100%;
+	background: white;
+}
+
+.icon-link:hover {
+	opacity: 0.7;
+}
+
+.icon {
+	width: 100%;
+	height: auto;
+	margin-bottom: 5%;
+}
+
+.footer {
+	bottom: 0;
+	width: 100%;
+	padding: 1%;
+	background-color: #f37a7b;
+	color: white;
+	text-align: center;
+}
